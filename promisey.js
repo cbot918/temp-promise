@@ -57,6 +57,7 @@ function promisey(executor) {
   };
 }
 
+// testcase
 const promise = promisey((resolve, reject) => {
   setTimeout(() => {
     resolve("成功");
